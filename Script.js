@@ -22,37 +22,37 @@ const perguntas = [
         enunciado: "dois cálices são colocados diante de você.Qual você bebe?",
         alternativas: [
             {
-                texto: ".",
+                texto: "O líquido espumoso,espumante roxo que brilha como se contevesse diamantes lapidados.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "O de liquido dourado tão brilhante que machuca osolhos e faz as manchas solares dançarem por toda a sala.",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Dentre estes, qual seus personagens preferido de HARRY POTTER?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "harry potter,dobby,lupin.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "dra,voldemort,sirius.",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Que tipo de fama voce gostariade ter?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "ser amado.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto: "nunca ser famoso na vida, mas ser lembrado eternamente depois da morte.",
                 afirmacao: "afirmação"
             }
         ]
