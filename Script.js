@@ -39,7 +39,7 @@ const perguntas = [
                 afirmacao: "afirmação"
             },
             {
-                texto: "dra,voldemort,sirius.",
+                texto: "draco,voldemort,sirius.",
                 afirmacao: "afirmação"
             }
         ]
@@ -58,7 +58,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "quando você terminar sua perguntas, você vai saber se é? ",
         alternativas: [
             {
                 texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
