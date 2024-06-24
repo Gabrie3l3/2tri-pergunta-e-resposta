@@ -6,53 +6,53 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "você é fã de Harry potter?",
+        enunciado: "um ion de certo elemento quimico de numero de massa 85 apresenta 36 eletrons e carga +1? qual eo o numero atomico desse ion??",
         alternativas: [
             {
-                texto: "não sou fã,pois eu nãoconheço mais eu gostaria de assistir!",
+                texto: "prot=85 eletrons=36+1 neutrons=112!",
                 afirmacao: "afirmação"
             },
             {
-                texto: "amo muito,eu ja marátonei todos os filmes!",
+                texto: "prot=85 eletros=36-1=35 neutrons=50!",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "dois cálices são colocados diante de você.Qual você bebe?",
+        enunciado: "o atomo de um elemento quimico possui 83 protons83 eletrons e 126 neutrons. qual e respectivamente o numero atomico e o numero de massa desse atomo??",
         alternativas: [
             {
-                texto: "O líquido espumoso,espumante roxo que brilha como se contevesse diamantes lapidados.",
+                texto: "208.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "O de liquido dourado tão brilhante que machuca osolhos e faz as manchas solares dançarem por toda a sala.",
+                texto: "209.",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "Dentre estes, qual seus personagens preferido de HARRY POTTER?",
+        enunciado: "em um atomo q apresenta 40 eletrons e 65 neutrons podemos afirmar q seu numero de protons e igual a:?",
         alternativas: [
             {
-                texto: "harry potter,dobby,lupin.",
+                texto: "40.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "draco,voldemort,sirius.",
+                texto: "35.",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "Que tipo de fama voce gostariade ter?",
+        enunciado: "igor geoani?",
         alternativas: [
             {
-                texto: "ser amado.",
+                texto: "campos.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "nunca ser famoso na vida, mas ser lembrado eternamente depois da morte.",
+                texto: "alvez.",
                 afirmacao: "afirmação"
             }
         ]
