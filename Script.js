@@ -6,59 +6,59 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "um ion de certo elemento quimico de numero de massa 85 apresenta 36 eletrons e carga +1? qual eo o numero atomico desse ion??",
+        enunciado: "pergunta sobre divertidamente 2 Se você está com fome,o que você faz?",
         alternativas: [
             {
-                texto: "prot=85 eletrons=36+1 neutrons=112!",
+                texto: "grito com todo mundo até me darem a comida!",
                 afirmacao: "afirmação"
             },
             {
-                texto: "prot=85 eletros=36-1=35 neutrons=50!",
+                texto: "saio correndo!",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "o atomo de um elemento quimico possui 83 protons83 eletrons e 126 neutrons. qual e respectivamente o numero atomico e o numero de massa desse atomo??",
+        enunciado: "Você tá na escola e perde a sua caneta, o que você faz?",
         alternativas: [
             {
-                texto: "208.",
+                texto: "roubo-quer dizer...pego emprestada de um colega.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "209.",
+                texto: "fico sem a caneta e começo a chorar.",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "em um atomo q apresenta 40 eletrons e 65 neutrons podemos afirmar q seu numero de protons e igual a:?",
+        enunciado: "Quem é você em um grupo de amigos?",
         alternativas: [
             {
-                texto: "40.",
+                texto: "o introvertido.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "35.",
+                texto: "o normal.",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "igor geoani?",
+        enunciado: "Faltava um minuto pra acabar a aula que você mais odeia... Mas a diretora deixa mais 1 hora de colégio pra hoje e PRA SEMPRE! O que você faz?",
         alternativas: [
             {
-                texto: "campos.",
+                texto: "vamo logo!!!*respira muito alto parecendo que tá morrendo*VAMOOO!ME TIRA DAQUIIIIII!!!😭😭😭😭😭.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "alvez.",
+                texto: "🥰tudo bem...eu tô começando a gostar dessa matéria mesmo...",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "quando você terminar sua perguntas, você vai saber se é? ",
+        enunciado: "? ",
         alternativas: [
             {
                 texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
