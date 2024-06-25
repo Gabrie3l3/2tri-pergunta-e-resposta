@@ -58,14 +58,14 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "em uma discussão? ",
+        enunciado: "em uma discussão voce prefere? ",
         alternativas: [
             {
-                texto: "1-.",
+                texto: "1-levantar a voz e falar tudo que voce tem para falar.",
                 afirmacao: "afirmação"
             },
             {
-                texto: ".",
+                texto: "2-manter a calma e não gritar e explica o porque tava brava.",
                 afirmacao: "afirmação"
             }
         ]
