@@ -58,14 +58,14 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "quem vc seria alegria ou a raiva de divertidamente? ",
+        enunciado: "em uma discussão? ",
         alternativas: [
             {
-                texto: "vc n tem muita paciência,e provavelmente escolhou 1 você seria a raiva😡.",
+                texto: "1-.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "ou se na resposta você respondeu a maioria 2 você séria alegria😄.",
+                texto: ".",
                 afirmacao: "afirmação"
             }
         ]
@@ -107,7 +107,7 @@ function respostaSelecionada(opcaoSelecionada) {
 function mostraResultado() {
     caixaPerguntas.textContent = "Em 2049...";
     textoResultado.textContent = historiaFinal;
-    caixaAlternativas.textContent = "";
+    caixaAlternativas.textContent = "quem vc seria alegria ou a raiva de divertidamente?vc n tem muita paciência,e provavelmente escolhou 1 você seria a raiva😡ou se na resposta você respondeu a maioria 2 você séria alegria😄 ";
 }
 
 mostraPergunta();
