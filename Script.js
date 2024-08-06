@@ -1,46 +1,4 @@
 
-        
-
-
-let atual = 0;
-let perguntaAtual;
-let historiaFinal = "";
-
-function mostraPergunta() {
-    if (atual >= perguntas.length) {
-        mostraResultado();
-        return;
-    }
-    perguntaAtual = perguntas[atual];
-    caixaPerguntas.textContent = perguntaAtual.enunciado;
-    caixaAlternativas.textContent = "";
-    mostraAlternativas();
-}
-
-function mostraAlternativas(){
-    for(const alternativa of perguntaAtual.alternativas) {
-        const botaoAlternativas = document.createElement("button");
-        botaoAlternativas.textContent = alternativa.texto;
-        botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
-        caixaAlternativas.appendChild(botaoAlternativas);
-    }
-}
-
-function respostaSelecionada(opcaoSelecionada) {
-    const afirmacoes = opcaoSelecionada.afirmacao;
-    historiaFinal += afirmacoes + " ";
-    atual++;
-    mostraPergunta();
-}
-
-function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
-    textoResultado.textContent = historiaFinal;
-    caixaAlternativas.textContent = "quem vc seria alegria ou a raiva de divertidamente?vc n tem muita paciência,e provavelmente escolhou 1 você seria a raiva😡ou se na resposta você respondeu a maioria 2 você séria alegria😄 ";
-}
-
-mostraPergunta();
-@
  const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
@@ -53,11 +11,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "1-grito com todo mundo até me darem a comida!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "Eu grito com todo mundo até me darem a comida."
             },
             {
-                texto: "2-saio correndo!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "2-Eu começo a entrar em pânico e saio correndo rapidamente, reagindo impulsivamente ao que está acontecendo ao meu redor",
+                afirmacao: "saio correndo!."
             }
         ]
     },
@@ -65,12 +23,12 @@ const perguntas = [
         enunciado: "Você tá na escola e perde a sua caneta, o que você faz??",
         alternativas: [
             {
-                texto: "1roubo-quer dizer...pego emprestada de um colega.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "1-quer dizer que estou pegando algo emprestado de um colega sem a permissão ou conhecimento dele.",
+                afirmacao: "roubo-quer dizer...pego emprestado de um colega."
             },
             {
-                texto: "2-fico sem a caneta e começo a chorar.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "2-Eu fico sem a caneta e começo a chorar porque me sinto frustrado/a ou incapaz de lidar com a situação de não ter algo tão importante para mim naquele momento.",
+                afirmacao: "fico sem a caneta e começo a chorar."
             }
         ]
     },
@@ -78,12 +36,12 @@ const perguntas = [
         enunciado: "Quem é você em um grupo de amigos?",
         alternativas: [
             {
-                texto: "2-o normal.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "2-Eu sou a pessoa que representa a normalidade dentro do grupo, agindo de maneira equilibrada e seguindo padrões aceitos pela maioria.",
+                afirmacao: "o normal."
             },
             {
                 texto: "1-mais introvertido..",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                afirmacao: "quando eu estou em uma atividade solitária ou em pequenos grupos, onde você pode refletir e recarregar sua energia pessoal."
             }
         ]
     },
@@ -92,11 +50,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "1-vamo logo!!!*respira muito alto parecendo que tá morrendo*VAMOOO!ME TIRA DAQUIIIIII!!!😭😭😭😭😭.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                afirmacao: "Vamos logo! respira alto, parecendo que está morrendo Vamos lá! Me tira daqui!!! 😭."
             },
             {
-                texto: "-🥰tudo bem...eu tô começando a gostar dessa matéria mesmo...",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "2-🥰tudo bem...eu tô começando a gostar dessa matéria mesmo...",
+                afirmacao: "Tudo bem, estou realmente começando a gostar dessa matéria!"
             }
         ]
     },
@@ -105,11 +63,13 @@ const perguntas = [
         alternativas: [
             {
                 texto: "1-levantar a voz e falar tudo que voce tem para falar.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                afirmacao: "Levante a voz e expresse tudo o que você tem a dizer."
+
+."
             },
             {
                 texto: "2-manter a calma e não gritar e explica o porque tava brava..",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                afirmacao: "Manter a calma, não gritar e explicar por que estava brava. "
             }
         ]
     },
