@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "a)Galáxia de Andrômeda!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "para bem você acertou👏. "
             },
             {
                 texto: "b)Galáxia de Messier 87!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: "você errou."
             }
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "a) Alfa Centauri.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                afirmacao: "na próxima você consegue ."
             },
             {
                 texto: "b) Saturno.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                afirmacao: "eu sabia que você eria acertar 😄."
             }
         ]
     },
@@ -36,11 +36,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "a) Via Láctea.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                afirmacao: "você é inteligente ❤️."
             },
             {
                 texto: "b) Galáxia de Andrômeda.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                afirmacao: "não fica triste na próxima você acerta😕."
             }
         ]
     },
@@ -49,11 +49,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "a) Buraco Negro de Sagittarius A*.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                afirmacao: "você acertou continua assim."
             },
             {
                 texto: "b) Buraco Negro de Proxima Centauri.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                afirmacao: "resposta errada😬!"
             }
         ]
     },
@@ -62,11 +62,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "a) Estrela de Barnard.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                afirmacao: "wrong answer🥲."
             },
             {
                 texto: "b) Estrela Azul.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                afirmacao: "right answer😄👏. "
             }
         ]
     },
